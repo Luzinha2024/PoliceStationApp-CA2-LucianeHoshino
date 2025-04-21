@@ -24,27 +24,14 @@ public class PoliceStationApp {
      */
     
     public static void main(String[] args) {
-        while(true){
-                 System.out.println("\n Please select one option: ");
-             for (PoliceStationApp.enums.MenuOptions option: PoliceStationApp.emuns.MenuOption.values());
-                 System.out.println(StackWalker.Option.ordinal() + 1 + . + option);
-             }
-         int choice = Scanner.nextInt();
-         scanner.nextLine();
-         
-         switch(PoliceStationApp.MenuOption.values()[choice-1]);{
-             case SORT -> sortFromFile();
-             case SEARCH -> searchByName();
-             case ADD_RECORD -> addNewPerson();
-             case SAVE -> savePeopleFromFile();
-             case EXIT -> {
-         }
-                 
-         }
-         
-        
-        
-        
+       // Main.java
+
+        PoliceStationApp app = new PoliceStationApp();
+        app.start();
     }
-    
 }
+
+        
+    
+    
+
